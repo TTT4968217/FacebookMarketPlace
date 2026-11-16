@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+:root {
+  color-scheme: light;
+  --background: #f0f2f5;
+  --foreground: #050505;
+  --muted: #65676b;
+  --blue: #0866ff;
+  --line: #ccd0d5;
+}
+
+body {
+  margin: 0;
+  background: var(--background);
+  color: var(--foreground);
+  font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+}
+
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+}
+
+.photo-stripes {
+  background-color: #f4f7fb;
+  background-image: repeating-linear-gradient(
+    -45deg,
+    #e5eef8 0 12px,
+    #f8fafd 12px 24px
+  );
+}
